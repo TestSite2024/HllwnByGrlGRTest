@@ -160,6 +160,7 @@ white-space:normal;
   }
   
 }
+
 @media (max-width: 430px), (max-height:670) {
   .pagetop h4 {
     font-size: calc(0.7rem + 1vw) ;
@@ -180,6 +181,24 @@ white-space:normal;
   }
   
 }
+@media (max-width: 375px), (max-height:667) {
+  .pagetop h4 {
+    font-size: calc(0.8rem) ;
+  }
+  .pagetop h1 {
+    font-size: calc(4rem + 2vw);
+  }
+  .pagetop h1 #or {
+    font-size: calc(2rem + 1vw);
+  }
+  .pagetop h3 {
+    font-size: calc(1.3rem + 0.5vw);
+  }
+  #scratcher-box {
+    scale: 0.8;
+    left: 40%;    
+  }
+} 
 #scratcher-box canvas {
   cursor: grab;
   }
