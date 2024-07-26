@@ -90,20 +90,26 @@ white-space:normal;
     text-align: center;
     }
  
-  #reveal {
-    display: block;
-    margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-  }
-  #baby
-  {
-    white-space: normal;
-  }
-    /* #t1 #boy{
- background: url(images/back1.png) no-repeat center center;
- background-size: contain;
-} */
+#reveal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#baby
+{
+  white-space: normal;
+}
+#boy{
+  line-height: 8vh;
+}
+#or{
+  line-height: 6vh;
+  font-size: 6vh;
+}
+#ggirl {
+  line-height: 8vh;
+}
 #t1 {
   width: 350px;
 }
@@ -144,7 +150,7 @@ white-space:normal;
     font-size: calc(3rem + 3vw);
   }
   .pagetop h1 {
-    font-size: calc(4rem + 3vw);
+    font-size: calc(4rem + 2vw);
   }
 }
 
@@ -186,18 +192,35 @@ white-space:normal;
     font-size: calc(0.8rem) ;
   }
   .pagetop h1 {
-    font-size: calc(4rem + 2vw);
+    font-size: calc(4rem + 1.8vw);
   }
-  .pagetop h1 #or {
+  #or {
     font-size: calc(2rem + 1vw);
   }
   .pagetop h3 {
     font-size: calc(1.3rem + 0.5vw);
   }
-  #scratcher-box {
-    scale: 0.8;
-    left: 40%;    
+  /* #mainbody {
+    position: inherit;
+      -webkit-transform-origin: top left;
+      -ms-transform-origin: top left;
+      -moz-transform-origin: top left;
+      -o-transform-origin: top left;
+      transform-origin: top left;
+  } */
+  #boy {
+    line-height: 3vh !important;
   }
+
+  #ggirl{
+    line-height: 6vh !important;
+  }
+  #scratcher-box {
+    position:absolute;
+    scale: 1; 
+    top: 70%;
+  }
+  
 } 
 #scratcher-box canvas {
   cursor: grab;
