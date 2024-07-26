@@ -104,7 +104,7 @@ white-space:normal;
   line-height: 8vh;
 }
 #or{
-  line-height: 6vh;
+  line-height: 8vh;
   font-size: 6vh;
 }
 #ggirl {
@@ -130,29 +130,6 @@ white-space:normal;
 }
 /* Styles for mobile phones */ 
 
-@media (max-width: 320px) { 
-  
-  .pagetop h4 {
-    font-size: calc(0.7rem + 0.6vw) ;
-  }
-  #scratcher-box {
-    scale: 0.8;
-    left: 40%;    
-  }
-  #t1 {
-    -webkit-transform:  translateX(-10%) scale(0.7, 0.7);
-    -ms-transform:translateX(-10%) scale(0.7, 0.7);
-    -moz-transform:translateX(-10%) scale(0.7, 0.7);
-    -o-transform:translateX(-10%) scale(0.7, 0.7);
-    transform: translateX(-10%) scale(0.7, 0.7);
-  }
-  .pagetop h1 #or {
-    font-size: calc(3rem + 3vw);
-  }
-  .pagetop h1 {
-    font-size: calc(4rem + 2vw);
-  }
-}
 
 @media (min-width: 321px), (max-width:1024){ 
   .pagetop h4 {
@@ -178,7 +155,10 @@ white-space:normal;
     font-size: calc(2rem + 1vw);
   }
   .pagetop h3 {
-    font-size: calc(1.3rem + 0.5vw);
+    font-size: calc(1.5rem + 0.5vw);
+  }
+  #or{
+    line-height: 5vh !important;
   }
 } 
 @media (min-width: 1025px){ 
@@ -222,6 +202,43 @@ white-space:normal;
   }
   
 } 
+
+@media (max-width: 320px) { 
+  .pagetop h3 {
+    font-size: calc(1.2rem + 0.5vw);
+  }
+  .pagetop h4 {
+    font-size: calc(0.7rem + 0.6vw) ;
+  }
+  #boy {
+    line-height: 3vh !important;
+  }
+ 
+  #ggirl{
+    line-height: 4vh !important;
+  }
+  #scratcher-box {
+    position:absolute;
+    scale: 1; 
+    top: 70%;
+  
+  }
+  /* #t1 {
+    -webkit-transform:  translate(-5%,-5%) scale(0.7, 0.7);
+    -ms-transform:translate(-5%,-5%) scale(0.7, 0.7);
+    -moz-transform:translate(-5%,-5%) scale(0.7, 0.7);
+    -o-transform:translate(-5%,-5%) scale(0.7, 0.7);
+    transform: translate(-5%,-5%) scale(0.7, 0.7);
+  } */
+ 
+  .pagetop h1 {
+    font-size: calc(3rem + 2vw);
+  }
+  #or {
+    font-size: calc(0.7rem + 1vw);
+    line-height: 4vh !important;
+  }
+}
 #scratcher-box canvas {
   cursor: grab;
   }

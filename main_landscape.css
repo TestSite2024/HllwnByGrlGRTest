@@ -163,23 +163,23 @@ td#or {
 
   }
 }
-@media only screen and (max-height: 400px) and (min-height: 352px) { 
+@media (min-height: 359px), (min-width: 671px) { 
   .pagetop h1 {
-    font-size: calc(2rem + 0.8vw);
+    font-size: calc(3rem + 1vw);
   }
   .pagetop h4 {
     font-size: calc(0.5rem + 0.70vw);
   }
   .pagetop h3 {
-    font-size: calc(0.7rem + 1.5vw);
+    font-size: calc(1rem + 1.5vw);
   }
   #t1
   {
-    width: calc(40% - 10px);
+    width: calc(50% - 10px);
 
   }
   #reveal {
-    width: calc(45% - 10px);
+    width: calc(50% - 10px);
 
   }
 }
