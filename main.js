@@ -80,7 +80,7 @@ var pct =new Array(9);
                 $('#girl').hide();
                 document.getElementsByTagName("body")[0].style.backgroundColor = color;
                 document.getElementsByTagName("body")[0].style.backgroundImage = 'none';
-                //document.getElementById("H3").insertAdjacentHTML('afterend', "<h4 id='testtext' style='white-space:normal'> Depending on the product you buy, here it will say either <br> 'It is a Girl!' or 'It is a Boy! with pink or blue background.</h4>");
+                document.getElementById("H3").insertAdjacentHTML('afterend', "<h4 id='testtext' style='white-space:normal'> Depending on the product you buy, here it will say either <br> 'It is a Girl!' or 'It is a Boy! with pink or blue background.</h4>");
 
                 $('#H3').hide();
                 $('#H4').hide();
@@ -205,6 +205,7 @@ var pct =new Array(9);
         $('#girl').show();
 
         document.getElementsByTagName("body")[0].style.backgroundImage = 'url(images/background.jpg)';
+        document.getElementById('testtext').remove();
 
         $('#H3').show();
         $('#H4').show();
@@ -325,9 +326,7 @@ var pct =new Array(9);
         // create new scratchers
         var scratchers = new Array(9);
         rnd = 2;
-        if (rnd>8) {
-            rnd=8;   
-        }
+        
         for (i = 0; i < scratchers.length; i++) {
             i1 = i + 1;
             scratchers[i] = new Scratcher('scratcher' + i1);
