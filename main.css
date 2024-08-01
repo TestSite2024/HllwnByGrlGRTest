@@ -64,11 +64,12 @@ text-shadow: 4px 6px #FFFFFF;
 .pagetop h3 {
 font-family: "Bona Nova SC", serif;
 flex-direction: column;
-font-size:calc(1.7rem + 0.6vw);
+font-size:calc(1.5rem + 0.6vw);
 color: #000000 !important;
 text-align: center;
 font-weight: 400;
 white-space:normal;
+text-shadow: 2px 2px #FFFFFF;
 
 } 
 .pagetop h4 {
@@ -101,14 +102,14 @@ white-space:normal;
   white-space: normal;
 }
 #boy{
-  line-height: 8vh;
+  line-height: 5vh;
 }
 #or{
-  line-height: 8vh;
+  line-height: 5vh;
   font-size: 6vh;
 }
 #ggirl {
-  line-height: 8vh;
+  line-height: 5vh;
 }
 #t1 {
   width: 350px;
@@ -205,6 +206,9 @@ white-space:normal;
 } 
 
 @media (max-width: 320px) { 
+  .pagetop h1 {
+    font-size: calc(3rem + 2vw);
+  }
   .pagetop h3 {
     font-size: calc(1.2rem + 0.5vw);
   }
@@ -214,30 +218,24 @@ white-space:normal;
   #boy {
     line-height: 3vh !important;
   }
- 
-  #ggirl{
-    line-height: 4vh !important;
-  }
-  #scratcher-box {
-    position:absolute;
-    scale: 1; 
-    top: 70%;
-  
-  }
-  /* #t1 {
-    -webkit-transform:  translate(-5%,-5%) scale(0.7, 0.7);
-    -ms-transform:translate(-5%,-5%) scale(0.7, 0.7);
-    -moz-transform:translate(-5%,-5%) scale(0.7, 0.7);
-    -o-transform:translate(-5%,-5%) scale(0.7, 0.7);
-    transform: translate(-5%,-5%) scale(0.7, 0.7);
-  } */
- 
-  .pagetop h1 {
-    font-size: calc(3rem + 2vw);
-  }
   #or {
     font-size: calc(0.7rem + 1vw);
     line-height: 4vh !important;
+  }
+  #ggirl{
+    line-height: 4vh !important;
+  } 
+  #scratcher-box {
+    position:absolute;
+    scale: 0.8; 
+    top: 60%;
+    left:40%;
+  }
+  #H3 {
+    line-height: 17px;
+  }
+    #t1 {
+    width: 300px;
   }
 }
 #scratcher-box canvas {
