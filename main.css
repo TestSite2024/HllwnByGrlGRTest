@@ -105,7 +105,7 @@ text-shadow: 2px 2px #FFFFFF;
   line-height: 5vh;
 }
 #or{
-  line-height: 5vh;
+  line-height: 6vh;
   font-size: 6vh;
 }
 #ggirl {
@@ -140,7 +140,7 @@ text-shadow: 2px 2px #FFFFFF;
     font-size: calc(4rem + 3vw);
   }
   #or {
-    font-size: calc(2rem + 1vw);
+    font-size: calc(1rem + 1vh);
   }
   
 }
@@ -166,7 +166,16 @@ text-shadow: 2px 2px #FFFFFF;
   .pagetop h4 {
     font-size: 2vh;
   }
-  
+  #boy{
+    line-height: 5vw;
+  }
+  #or{
+    line-height: 9vw;
+    font-size: 6vh;
+  }
+  #ggirl {
+    line-height: 5vw;
+  }
 }
 @media (max-width: 375px), (max-height:667px) {
   .pagetop h4 {
@@ -219,7 +228,7 @@ text-shadow: 2px 2px #FFFFFF;
     line-height: 3vh !important;
   }
   #or {
-    font-size: calc(0.7rem + 1vw);
+    font-size: calc(0.7rem + 2vh);
     line-height: 4vh !important;
   }
   #ggirl{
