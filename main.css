@@ -138,7 +138,7 @@ white-space:normal;
   .pagetop h1 {
     font-size: calc(4rem + 3vw);
   }
-  .pagetop h1 #or {
+  #or {
     font-size: calc(2rem + 1vw);
   }
   
@@ -175,7 +175,7 @@ white-space:normal;
     font-size: calc(4rem + 1.8vw);
   }
   #or {
-    font-size: calc(2rem + 1vw);
+    font-size: calc(1.2rem + 1vw);
     line-height: 5vh !important;
   }
   .pagetop h3 {
