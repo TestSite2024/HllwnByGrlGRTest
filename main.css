@@ -170,7 +170,7 @@ text-shadow: 2px 2px #FFFFFF;
     line-height: 5vw;
   }
   #or{
-    line-height: 9vw;
+    line-height: 5vw;
     font-size: 6vh;
   }
   #ggirl {
@@ -200,11 +200,11 @@ text-shadow: 2px 2px #FFFFFF;
       transform-origin: top left;
   } */
   #boy {
-    line-height: 3vh !important;
+    line-height: 5vh !important;
   }
 
   #ggirl{
-    line-height: 6vh !important;
+    line-height: 5vh !important;
   }
   #scratcher-box {
     position:absolute;
