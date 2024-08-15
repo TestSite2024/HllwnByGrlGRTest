@@ -26,23 +26,7 @@ body {
    -moz-text-size-adjust: none;
     -ms-text-size-adjust: none;
         text-size-adjust: none;
-  /**background:  linear-gradient(90deg, #ff95c8, #7FB1ED);
-  background-size: 100% 200%;
-  /**margin: auto;
-  width: 100vh;
-  max-width: 100vw;
-  min-width: 400px;*/
-}
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+
 }
 
 /* @media only screen and (prefers-color-scheme: dark), (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -61,6 +45,10 @@ font-size: calc(4rem + 1vw);
 text-align: center;
 text-shadow: 4px 6px #FFFFFF;
 } 
+#or {
+  font-size: calc(1rem + 1vw);
+  line-height: 6vh;
+}
 .pagetop h3 {
 font-family: "Bona Nova SC", serif;
 flex-direction: column;
@@ -103,10 +91,6 @@ text-shadow: 2px 2px #FFFFFF;
 }
 #boy{
   line-height: 5vh;
-}
-#or{
-  line-height: 6vh;
-  font-size: 6vh;
 }
 #ggirl {
   line-height: 5vh;
@@ -152,7 +136,7 @@ text-shadow: 2px 2px #FFFFFF;
   .pagetop h1 {
     font-size: calc(4rem + 2vw);
   }
-  .pagetop h1 #or {
+  #or {
     font-size: calc(2rem + 1vw);
   }
   .pagetop h3 {
@@ -162,20 +146,70 @@ text-shadow: 2px 2px #FFFFFF;
     line-height: 5vh !important;
   }
 }  */
-@media (min-width: 1025px){ 
+
+@media (min-width: 768px) and (min-height: 930px){ 
+  
+  .pagetop h3 {
+    font-size: calc(1.5rem + 1.2vw);
+  }
+  .pagetop h1 {
+    font-size: calc(4rem + 4vw);
+  }
+  
+  #boy{
+    line-height: 7vh !important;
+  }
+  #scratcher-box {
+    position:absolute;
+    width: 30em;
+    height: 30em; 
+    top: 60%;
+  } 
+  .pagetop h4 {
+    font-size: 2vh;
+  }  
+  #or{
+    line-height: 7vh !important;
+    font-size: calc(1rem + 3vw);
+  }
+  #ggirl {
+    line-height: 7vh !important;
+  }
+  #t1 {
+    width: 500px;
+  }
+}
+@media (min-height: 675px) and (min-width: 1024px){ 
+  .pagetop h3 {
+    font-size: calc(1.5rem + 1.2vh);
+  }
+  .pagetop h1 {
+    font-size: calc(4rem + 3vw);
+  }
+
+  #boy{
+    line-height: 7vh !important;
+  }
+ 
   .pagetop h4 {
     font-size: 2vh;
   }
-  #boy{
-    line-height: 5vw;
-  }
   #or{
-    line-height: 5vw;
-    font-size: 6vh;
+    line-height: 7vh !important;
+    font-size: calc(1rem + 3vh);
   }
   #ggirl {
-    line-height: 5vw;
+    line-height: 7vh !important;
   }
+  #scratcher-box {
+    position:absolute;
+    width: 26em;
+    height: 26em; 
+    top: 68%;
+}
+#t1 {
+  width: 500px;
+}
 }
 @media (max-width: 375px), (max-height:667px) {
   .pagetop h4 {
@@ -208,7 +242,8 @@ text-shadow: 2px 2px #FFFFFF;
   }
   #scratcher-box {
     position:absolute;
-    scale: 1; 
+    width: 21em;
+    height: 21em; 
     top: 70%;
   }
   
@@ -236,10 +271,11 @@ text-shadow: 2px 2px #FFFFFF;
   } 
   #scratcher-box {
     position:absolute;
-    scale: 0.8; 
-    top: 60%;
-    left:40%;
+    width: 17em;
+    height: 17em; 
+    top: 65%;
   }
+
   #H3 {
     line-height: 17px;
   }
