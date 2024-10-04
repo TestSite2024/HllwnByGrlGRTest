@@ -259,6 +259,7 @@ var pct =new Array(9);
         else {
             $("#baby").text('the baby!');
             surname="the";
+            document.getElementById('surname').style.fontWeight="normal";
         }
 /*        $(document).ready(function(){
             // function scope wavesurfer
@@ -267,7 +268,9 @@ var pct =new Array(9);
                 matrix: [0.35277776,0,0,-0.35277778,35.416827,22.91533]
               });
         }); */
-        document.getElementById('intro').innerHTML= "This is a gender reveal scratch off for <strong>" + surname + "</strong> family. It contains sound when the gender is revealed. Do you want to continue with sound?";
+        //document.getElementById('intro').innerHTML= "This is a gender reveal scratch off for <strong>" + surname + "</strong> family. It contains sound when the gender is revealed. Do you want to continue with sound?";
+        document.getElementById('surname').innerHTML= surname;
+
         document.getElementById('id01').style.display='block';
         $('.nosoundbtn').on("click", function (e) {
             document.getElementById('id01').style.display='none';
